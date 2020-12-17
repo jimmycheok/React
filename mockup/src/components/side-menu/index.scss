@@ -1,0 +1,142 @@
+.style-purple {
+    width: 38px;
+    background-color: #7C59FF;
+    color: white;
+    transform: rotate(45deg);
+    border-radius: 10px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .style-purple-text {
+    font-size: 16px;
+    transform: rotate(-45deg);
+  }
+
+  .margin-top-5 {
+    margin-top: 5%;
+  }
+
+  .item-margin {
+    margin: 10% 2%;
+  }
+
+  .font-openSans-16 {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .min-h-45{
+    min-height: 45rem;
+  }
+
+  .margin-0 {
+    margin: 0;
+  }
+
+  .font-openSans {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .font-grey {
+    color: #8A8F9C;
+  }
+
+  .font-avenirNext {
+    font-family: "Avenir Next";
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  /*toggle switch CSS*/
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+  }
+
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #EEEEEE;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+    background-color: #7C59FF;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  input:checked+.slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+  }
+
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .div-bottom {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .selected-item {
+    background: #7C59FF;
+    width: 195px;
+    height: 38px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    margin: 15% 0;
+  }
+
+  .width-100 {
+    width: 100%;
+  }
+
+  .margin-left-5 {
+    margin-left: 5%;
+  }
+
+  .margin-10{
+      margin: 10px;
+  }
+  
+  .margin-icon{
+    margin: 0 5px;
+}
